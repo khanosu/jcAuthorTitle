@@ -10,7 +10,7 @@ const app = express();
 // routes
 const personRoutes = require('./api/routes/persons');
 
-mongoose.connect('mongodb+srv://' + process.env.DB_AUTH + '@cluster0-knne7.mongodb.net/AuthorTitle?retryWrites=true', {
+mongoose.connect('mongodb+srv://' + process.env.DB_AUTH_JC + '@cluster0-knne7.mongodb.net/AuthorTitle?retryWrites=true', {
     useNewUrlParser: true
 });
 
